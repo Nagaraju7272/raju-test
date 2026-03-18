@@ -8,5 +8,5 @@ RUN npm install --production
 COPY . .
 
 EXPOSE 5000
-
+test
 CMD ["npm", "start"]
